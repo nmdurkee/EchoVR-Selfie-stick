@@ -1,9 +1,9 @@
-# 🤳 EchoVR Selfie Stick
+# EchoVR Selfie Stick
 
 A selfie stick for Echo VR on PC VR. You can grab it with one or both hands. The camera on top
 always aims at your chest, and **the PC/desktop view (what you record or stream) comes from that
 camera**. Your headset view stays first-person. Poke the red shutter button and a floating
-**3 · 2 · 1** counts down; then the shot goes to your clipboard and is saved as a PNG.
+**3, 2, 1** counts down; then the shot goes to your clipboard and is saved as a PNG.
 
 > [!WARNING]
 > **Research prototype, unofficial.** It hooks a closed-source game at runtime, using addresses verified
@@ -19,13 +19,13 @@ game, so nothing reaches other players.
 
 | | |
 |---|---|
-| 🪄 **Spawn** | Tablet → Tools → **SELFIE STICK** → ON. The stick appears 0.5 m in front of you. |
-| ✋ **Grab** | Squeeze grip within 12 cm anywhere along the shaft. With two hands the stick follows the line between them, so lifting either hand tilts that end. Let go and it floats in place (zero-g). |
-| 🎥 **PC camera** | It sits on top of the stick and **always aims at your upper chest**, whether the stick is held or floating like a tripod. |
-| 🔴 **Shutter** | Poke the red button on the handle with your **free** hand's index finger. The hand holding the stick can't fire it. It glows when your finger is close and has a cooldown. |
-| ⏱️ **Self-timer** | 3, 2, 1 floating digits pop in and fade above the camera. Then the lens flashes and you hear a click. The digits and flash show only in the headset, never in the photo. |
-| 📋 **Screenshot** | The desktop frame goes to the clipboard (CF_DIB) and to `<Pictures>\Echo Selfies\EchoSelfie_YYYYMMDD_HHMMSS.png`. |
-| 🎛️ **Tablet page** | `SELFIE STICK: ON/OFF`, `FOV − [112 DEG] +` (60–130°), `LENGTH − [1.00 M] +` (0.5–2.0 m), `SHOTS TAKEN`, `< BACK`. |
+| **Spawn** | Tablet → Tools → **SELFIE STICK** → ON. The stick appears 0.5 m in front of you. |
+| **Grab** | Squeeze grip within 12 cm anywhere along the shaft. With two hands the stick follows the line between them, so lifting either hand tilts that end. Let go and it floats in place (zero-g). |
+| **PC camera** | It sits on top of the stick and **always aims at your upper chest**, whether the stick is held or floating like a tripod. |
+| **Shutter** | Poke the red button on the handle with your **free** hand's index finger. The hand holding the stick can't fire it. It glows when your finger is close and has a cooldown. |
+| **Self-timer** | 3, 2, 1 floating digits pop in and fade above the camera. Then the lens flashes and you hear a click. The digits and flash show only in the headset, never in the photo. |
+| **Screenshot** | The desktop frame goes to the clipboard (CF_DIB) and to `<Pictures>\Echo Selfies\EchoSelfie_YYYYMMDD_HHMMSS.png`. |
+| **Tablet page** | `SELFIE STICK: ON/OFF`, `FOV − [112 DEG] +` (60–130°), `LENGTH − [1.00 M] +` (0.5–2.0 m), `SHOTS TAKEN`, `< BACK`. |
 
 ## How it works
 
@@ -127,4 +127,4 @@ Tuning: the fingertip estimate for the shutter can be overridden without rebuild
 
 Echo VR is © Ready At Dawn / Meta. This project is not affiliated with either.
 
-🤖 Built with [Claude Code](https://claude.com/claude-code)
+Built with [Claude Code](https://claude.com/claude-code)
