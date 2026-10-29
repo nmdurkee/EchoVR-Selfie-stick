@@ -1,0 +1,9 @@
+build/
+dist/
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+__pycache__/
